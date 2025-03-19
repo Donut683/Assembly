@@ -19,7 +19,7 @@ _start:
     mov eax, [a]
     imul dword [b]
     mov ebx, eax
-
+    
     mov eax, [c]
     imul dword [d]
     add eax, ebx
