@@ -1,4 +1,8 @@
 # Midterm
+Gabriel C
+3/26/2025
+CISC211
+Professor Danish Khan
 
 1.  Write an x86-compatible assembly code that calculates the
 following equation.
