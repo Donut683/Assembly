@@ -122,5 +122,4 @@ jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ nasm -f elf32 oddnumber.asm -o
 jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ ld -m elf_i386 oddnumber.o -o oddnumber
 jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ ./oddnumber
 odd number
-jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ 
 
