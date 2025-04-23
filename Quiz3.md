@@ -32,10 +32,7 @@ factorial_loop:
 
 
 $ nano factorial_printf.asm
-
 $ nasm -f elf32 factorial_printf.asm -o factorial_printf.o
-
 $ gcc -m32 factorial_printf.o -o factorial_printf
-
 $ ./factorial_printf
 Factorial: 120
