@@ -1,5 +1,6 @@
 # Quiz 2
 
+```
 quiz2.asm
   GNU nano 6.2                                                                             
 section .data
@@ -72,3 +73,4 @@ Non-debugging symbols:
 (gdb) x /1dw 0x0804a010
 0x804a010:      0
 (gdb) 
+```
