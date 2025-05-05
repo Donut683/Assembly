@@ -4,6 +4,7 @@ Gabriel C
 CISC211
 Professor Danish Khan
 
+```
 1.  Write an x86-compatible assembly code that calculates the
 following equation.
 
@@ -64,14 +65,14 @@ Result: 5
 | `EDX`    |  `0`   |
 
 Verified using `gdb`:
-```bash
+bash
 gdb ./arith
 run
 info registers
 
 EAX = 5
 EDX = 0
-```
+
 
 2. K-Map simplification
 Y = a·b + a'·b + a·b'
@@ -126,4 +127,4 @@ jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ nasm -f elf32 oddnumber.asm -o
 jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ ld -m elf_i386 oddnumber.o -o oddnumber
 jovyan@jupyter-gcarino-40student-2esdccd-2eedu:~$ ./oddnumber
 odd number
-
+```
