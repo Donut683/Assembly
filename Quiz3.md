@@ -5,6 +5,7 @@ CISC211
 Danish Khan
 April 23, 2025
 
+```
 section .data
     x dd 5
     fmt db "Factorial: %d", 10, 0
@@ -36,3 +37,4 @@ $ nasm -f elf32 factorial_printf.asm -o factorial_printf.o
 $ gcc -m32 factorial_printf.o -o factorial_printf
 $ ./factorial_printf
 Factorial: 120
+```
